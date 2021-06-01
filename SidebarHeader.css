@@ -1,0 +1,41 @@
+.sidebar-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarHeader__right > .MuiSvgIcon-root {
+  margin-left: 25px;
+}
+
+.sidebarHeader__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid lightgrey;
+  border-right: 3px solid white;
+}
+
+.sidebarHeader__input {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding-left: 10px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.sidebarHeader__input > input {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 100%;
+  padding-left: 35px;
+  background-color: #fffff9;
+}
+
+.sidebarHeader__input > .MuiSvgIcon-root {
+  position: absolute;
+  padding-left: 10px;
+}
